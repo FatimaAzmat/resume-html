@@ -1,0 +1,93 @@
+body, html {
+    /*
+  The default html interpertation adds margin and padding to the basic elements
+  So it can be logically helpful to remove them from the beginning!
+  */
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+* {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+/*body {
+    min-width: 500px;
+}*/
+
+
+
+.header {
+  height: 5px;
+  margin-left: 300px;
+  grid-area: header;
+  text-align: center;
+  width: 800px;
+  font-family: Sacramento;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
+
+
+.main{
+	width: 1000px;
+}
+
+tr{
+	text-align: left;
+	font-family: Sacramento;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+td{
+	padding-right: 100px;
+	text-align: left;
+	font-family: Sacramento;
+}
+
+.headers > th {
+    font-size: 20px;
+}
+
+
+.left-side{
+	margin-top: 40px;
+	margin-left: 200px;
+	table-layout: fixed; 
+	width: 1500px;
+}
+
+
+
+.top{
+	margin-top: 70px;
+	margin-left: 200px;
+	table-layout: fixed; 
+	width: 1500px;
+}
+
+
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+
+
